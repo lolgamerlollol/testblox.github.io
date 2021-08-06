@@ -1,0 +1,58 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 06 Aug 2021 11:09:35 at https://sitetest1.roblonium.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://sitetest1.roblonium.com -O1 "C:\Users\38761\Downloads\My Test Sites\TestLol" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:09:37	Warning: 	Found for https://sitetest1.roblonium.com/
+11:09:37	Warning: 	File has moved from https://sitetest1.roblonium.com/ to /Default.aspx
+11:12:39	Error: 	"Forbidden" (403) at link https://sitetest1.roblonium.com/RobloniumDefaultErrorPage.aspx?code=400 (from https://sitetest1.roblonium.com/Landing/Animated)
+11:12:39	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/Login/ResetPasswordRequest.aspx (from https://sitetest1.roblonium.com/Landing/Animated)
+11:12:39	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/Info/Privacy.aspx (from https://sitetest1.roblonium.com/Landing/Animated)
+11:12:39	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/Parents.aspx (from https://sitetest1.roblonium.com/Landing/Animated)
+11:13:13	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/info/terms-of-service (from https://sitetest1.roblonium.com/Landing/Animated)
+11:13:13	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/images/arrow_skinny55h_right.png (from https://sitetest1.roblonium.com/roblonium.css)
+11:13:13	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/images/arrow_skinny55h_left.png (from https://sitetest1.roblonium.com/roblonium.css)
+11:13:13	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/images/bg-notifications.png (from https://sitetest1.roblonium.com/roblonium.css)
+11:13:13	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/images/Logo/logo_O_01302017.svg (from https://sitetest1.roblonium.com/roblonium.css)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/ait-client-rewrite.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/wbhack.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/css/banner-styles.css?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/css/iconochive.css?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/timestamp.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/graph-calc.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/auto-complete.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/js/toolbar.js?v=1544499711.0 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/web/ (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/images/toolbar/wayback-toolbar-logo.png (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/images/toolbar/wm_tb_prv_on.png (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/images/toolbar/wm_tb_nxt_on.png (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/web/20130502113918*/http://www.roblox.com/Help/Builderman.aspx (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:14	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/static/images/loading.gif (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/UserLanguage/LanguageRedirect?languageCode=de&relativePath=%2fUser.aspx%3fID%3d1 (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/all-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/building-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/horror-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/town-and-city-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/military-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/comedy-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/medieval-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/adventure-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/sci-fi-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/naval-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/fps-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/rpg-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/sports-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/fighting-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/western-games (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Forbidden" (403) at link https://jsak.roblox.com/2e072412af6d697c97ed8c485a983dcb.js (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Forbidden" (403) at link https://jsak.roblox.com/e9724bc11c59b5cc6f16b4f82f2d5269.js (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/Upgrades/BuildersClubMemberships.aspx?ref=vpr (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/install/unsupported.aspx (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:15	Error: 	"Forbidden" (403) at link https://jsak.roblox.com/72bf84e03aab648224ca57309dd96e74.js (from https://sitetest1.roblonium.com/Help/Builderman.aspx)
+11:13:16	Error: 	"Not Found" (404) at link https://sitetest1.roblonium.com/event.srcElement (from https://sitetest1.roblonium.com/ScriptResource.axd?d=oTFKEw7Fd4kkVbUJywXQli25QNWr4viLAgWqxhMOA_E5MfuuRglGtDc9YVa9uk0-aFIFyKm5CdwISeT4Ub1gNLOB_4u9MQzmcj6AfDOJ2TtxDRC1vHMZGdfmLM5dDH5vyVAhCWyN3IfxZvWF8Zs1frK2-UJAO_k_IZPWulnepUsEG4po8ZEtorovH_AD8jycx_uHIn5owSXfpvxUxo5QxQJTqjOsmMETX0Yvf2pDnnMsPeotpIE4b-sg12ULJcDWuyC2wU3O45BQ9_omQvXz2W3lhpmx3gJNBjvd6HNKi8Te4yM4NJlGXdInojw5foqClDxCnZQZTR4qstDlBANgVL4R6seJZFY2ZDTfssVio1EJSJYHqZsqGTBvmpjHqxtiS1HC_V1jcMyWQ2jekSdlssTtHc9ZHm61_J74FDFqYs6xXHWrn4sFumHVx2Us7TruHHREiQ2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 41 seconds : 384 links scanned, 336 files written (5055796 bytes overall) [4514906 bytes received at 20429 bytes/sec], 4107316 bytes transferred using HTTP compression in 142 files, ratio 24%, 13.7 requests per connection
+(45 errors, 2 warnings, 0 messages)

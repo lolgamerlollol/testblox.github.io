@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-sitetest1.roblonium.com	TRUE	/	FALSE	1999999999	PHPSESSID	ui2qp7t42s8sohinu1k0u8jdtg
-

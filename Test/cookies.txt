@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-timeblox.me	TRUE	/	FALSE	1999999999	PHPSESSID	f4df87cb5e068a033556a55c96a9ff08
-

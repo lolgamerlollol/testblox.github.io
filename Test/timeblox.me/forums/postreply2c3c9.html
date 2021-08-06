@@ -1,0 +1,68 @@
+<link id="ctl00_Imports" rel="stylesheet" type="text/css" href="../AllCSS.css">
+<link rel="icon" href="../favicon.ico">
+<script src="../../code.jquery.com/jquery-3.1.0.min.js"></script
+
+<!-- Mirrored from timeblox.me/forums/postreply2.php?id=8 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Aug 2021 14:29:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Timeblox">
+<meta name="keywords" content="Old Roblox, Socialize, Games, old, blocks, building, finobe">
+<meta name="author" content="Janx">
+<title>Timeblox</title><script>
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+$(document).ready(function() {
+	
+	$("#uploadItem").click(function() {
+		if ($("#uploadItem").is(":disabled") == false) {
+			$("#uploadItem").prop("disabled", true);
+			
+			/////////////
+			/////////////
+			/////////////
+			var formData = new FormData();
+			formData.append('id', getUrlParameter('id'));
+			formData.append('conts', $("#contents").val());
+			$.ajax({
+				type: "POST",
+				url : "https://timeblox.me/forums/postreply2_form.php",
+				data : formData,
+				cache: false,
+				contentType: false,
+				processData: false,
+				success: function(data) {
+					console.log(data);
+					
+					if (data == "error") {
+						$("#uploadStatus").html("<div class=\"alert alert-danger\">sexxx</div>"); 
+					}else{
+						$("#uploadStatus").html("<div class=\"alert alert-success\">done.</div>");
+					}
+				},
+				error: function() {
+					$("#uploadStatus").html("<div class=\"alert alert-danger\">Error occured!</div>");
+				}
+			});
+			/////////////
+			/////////////
+			/////////////
+		}
+	})
+});</script>
+<label for="contents">Contents:</label>
+<input type="text" id="contents" name="contents"><br><br>
+<input type="submit" id="uploadItem" value="Submit">
+<div id="uploadStatus"></div>
